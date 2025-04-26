@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home - Shilpa Singh</title>
+	<style>
+		nav {
+			background: #b8860b;
+			width: 80%;
+			margin-left: 200px;
+			margin-top: 20px;
+			padding: 5px;
+			border-radius: 25px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 2); /* Soft shadow */
+			font-size: 18px;
+			line-height: 1.6;
+		}
+		nav a {
+			color: white;
+			margin: 40px;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		body {
+			font-family: 'Georgia', serif;
+			background: White; /* Light green background */
+			color: #333333;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		.container {
+			display: flex; /* Important! */
+			align-items: center; /* Aligns vertically center */
+			justify-content: center; /* Centers horizontally */
+			margin-top: 80px;
+			gap: 80px; /* Space between photo and text */
+		}
+		.profile-pic {
+			width: 300px;
+			height: 300px;
+			border-radius: 100%;
+			object-fit: cover;
+			object-position: top;
+			border: 4px solid #b8860b; /* Deep Golden */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+		}
+		.body-text {
+			max-width: 500px;
+			text-align: left;
+		}
+		
+		
+	</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="education.html">Education</a>
+    <a href="experience.html">Experience</a>
+    <a href="contact.html">Contact Details</a>
+</nav>
+
+<!-- Main Content (Photo + Text Side by Side) -->
+<div class="container">
+	<img src="Photo.jpg" alt="Your Photo" class="profile-pic">
+
+	<div class="body-text">
+		<h1>Shilpa Singh</h1>
+		<p>I am currently working as a research scholar at the Computer Generated Holography and Optical Imaging Laboratory in the Department of Physics, IIT Guwahati,India.  
+My work focuses on both theoretical and experimental aspects of optical trapping, along with the analysis of complex imaging systems through geometrically exact ray tracing methods.  
+</p>
+		<p><strong>Research Interests:</strong> Optical Trapping, Computational Imaging, Aberration Analysis, Beam Shaping, Geometrical Ray Tracing.</p>
+	</div>
+</div>
+
+</body>
+</html>
